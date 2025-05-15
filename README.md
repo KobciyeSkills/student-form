@@ -6,19 +6,23 @@ This is a simple full-stack web application that collects student data (name, em
 ## 📁 Folder Structure
 
 student-form-app/
-│
+
 ├── index.html              # Main HTML form served at root
 
 ├── server.js               # Node.js + Express backend server
+
 ├── package.json            # NPM config with dependencies
+
 ├── .env                    # Environment variables (Mongo URI, port)
-│
+
 ├── models/                 # Mongoose schemas/models
+
 │   └── Student.js          # Schema definition for student data
-│
+
 ├── public/                 # Static files served by Express
+
 │   └── style.css           # CSS styling for the form
-│
+
 └── README.md               # Project documentation
 
 
