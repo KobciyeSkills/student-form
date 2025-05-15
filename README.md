@@ -8,6 +8,7 @@ This is a simple full-stack web application that collects student data (name, em
 student-form-app/
 │
 ├── index.html              # Main HTML form served at root
+
 ├── server.js               # Node.js + Express backend server
 ├── package.json            # NPM config with dependencies
 ├── .env                    # Environment variables (Mongo URI, port)
